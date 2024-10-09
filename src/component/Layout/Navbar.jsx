@@ -42,7 +42,7 @@ const Navbar = () => {
           <ul
             className={`${
               isOpen ? "block" : "hidden"
-            } md:flex gap-10 font-medium font-primary text-primary md:items-center md:static absolute top-[17%] left-0 w-full bg-white md:bg-transparent`}
+            } md:flex gap-10 font-medium font-primary text-primary md:items-center md:static absolute top-[90px] left-0 w-full bg-white md:bg-transparent`}
           >
             <li>
               <Link
