@@ -52,9 +52,9 @@ const SinglePage = () => {
         </div>
         <br />
 
-        <div className="flex">
+        <div className="flex ">
           <div>
-            <h1 className="text-6xl font-semibold my-6">Branding Package</h1>
+            <h1 className="font-medium text-2xl md:font-medium md:text-4xl lg:text-6xl lg:font-semibold my-6">Branding Package</h1>
             <h1 className="text-2xl  my-6">Identity</h1>
             <p className="pb-5">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum
@@ -74,10 +74,10 @@ const SinglePage = () => {
             </p>
           </div>
           <div className="w-[40%]">
-            <h1 className="text-2xl font-semibold my-6">Categories</h1>
+            <h1 className="text-xl font-medium lg:text-2xl lg:font-semibold  my-6">Categories</h1>
             <p>Branding</p>
             <hr />
-            <h1 className="text-2xl font-semibold my-6">Tags</h1>
+            <h1 className="text-xl font-medium lg:text-2xl lg:font-semibold my-6">Tags</h1>
             <p>Cool, Light</p>
           </div>
         </div>

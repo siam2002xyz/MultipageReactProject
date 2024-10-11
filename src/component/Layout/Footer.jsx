@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer className="bg-black m-auto pt-24 pb-8">
       <div className="container m-auto">
-        <ul className="flex gap-10 justify-center font-medium text-white">
+        <ul className="text-center md:flex lg:flex  gap-10 justify-center font-medium text-white">
           <li>
             <Link to="/" className="transition-all hover:text-slate-500">
               Home
